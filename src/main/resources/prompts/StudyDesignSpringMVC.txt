@@ -1,0 +1,5 @@
+Can we generate code for SpringMVC 
+for API, Service, Data Object, Database persistence to 
+POSTGRE SQL based on the JSON structure defined here 
+
+C:\Users\ravin\OneDrive\12. Source Codes\Java-Projects\studydesign\src\main\resources\datamodels\studydatamodel.json

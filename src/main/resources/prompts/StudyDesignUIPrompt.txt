@@ -1,0 +1,13 @@
+################# Prompt to Generate Data Model for VCE Study Design  ################
+
+Can generate a the UI model to have following concepts 
+
+Study Design Main Screen which has 
+- Search, List , Bottom Bar
+- Search Screen : 
+   + provide Search on Study Design Fields
+   + Action Buttons which submit the form and call REST APIs for Searching
+   + Reset Button which resets the screen forms
+   + New Button which navigate in the same place as main screen to New Study Design Screen 
+
+   in sourcecode template/ai-generated folder
