@@ -15,7 +15,8 @@ public class DatabaseConnectionTest {
     private static final Logger logger = LoggerFactory.getLogger(DatabaseConnectionTest.class);
 
     @Autowired
-    private JdbcTemplate jdbcTemplate;
+    private JdbcTemplate jdbcTemplate; 
+    private String test;
 
     @Test
     public void testDatabaseConnection() {
