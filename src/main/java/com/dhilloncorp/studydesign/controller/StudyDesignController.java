@@ -37,7 +37,7 @@ public class StudyDesignController {
     public StudyDesign updateStudyDesign(@PathVariable Long id, @RequestBody StudyDesign studyDesign) {
         StudyDesign existingStudyDesign = studyDesignService.getStudyDesignById(id);
         if (existingStudyDesign != null) {
-            studyDesign.setId(id);
+            //studyDesign.setId(id);
             return studyDesignService.saveStudyDesign(studyDesign);
         }
         return null;

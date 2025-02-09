@@ -32,9 +32,14 @@ GRANT CREATE ON SCHEMA study_design TO studydesign_admin;
 GRANT USAGE ON SCHEMA study_design TO studydesign_user;
 GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA study_design TO studydesign_user;
 
+-- Grant sequence permissions
+GRANT USAGE, SELECT, UPDATE ON ALL SEQUENCES IN SCHEMA study_design TO studydesign_user;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA study_design TO studydesign_user;
 
 
 SELECT current_database();
 SELECT current_user;
 SELECT session_user;
 
+
+-- Grant sequence permissions

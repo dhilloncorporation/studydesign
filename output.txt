@@ -1,0 +1,21 @@
+SET
+    message     
+----------------
+ Study Designs:
+(1 row)
+
+     message     
+-----------------
+ Areas of Study:
+(1 row)
+
+ message 
+---------
+ Units:
+(1 row)
+
+  message  
+-----------
+ Outcomes:
+(1 row)
+
